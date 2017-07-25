@@ -11,8 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tipAmountLabel: UILabel!
-    
     @IBOutlet weak var totalAmountLabel: UILabel!
+    @IBOutlet weak var billAmountTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,6 +31,17 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calcTip(_ sender: UITextField) {
+        
+        let billAmount = Double(billAmountTextField.text!) ?? 0
+        
+        let tipAmount = billAmount * 0.2
+        
+        let totalAmount = billAmount + tipAmount
+    
+        
+        tipAmountLabel.text = String(format: "$%f", tipAmount)
+        totalAmountLabel.text = String(format: "$%f", totalAmount)
+        
     }
     
 }

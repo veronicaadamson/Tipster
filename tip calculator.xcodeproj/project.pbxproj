@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0CC2691F29915D007AC3B4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CC2681F29915D007AC3B4 /* SettingsViewController.swift */; };
+		8E0CC26B1F2993F8007AC3B4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CC26A1F2993F8007AC3B4 /* Settings.swift */; };
 		8E3434E61F1DAE8900DC4A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3434E51F1DAE8900DC4A1C /* AppDelegate.swift */; };
 		8E3434E81F1DAE8900DC4A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3434E71F1DAE8900DC4A1C /* ViewController.swift */; };
 		8E3434EB1F1DAE8900DC4A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3434E91F1DAE8900DC4A1C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E0CC2681F29915D007AC3B4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8E0CC26A1F2993F8007AC3B4 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		8E3434E21F1DAE8900DC4A1C /* tip calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3434E51F1DAE8900DC4A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E3434E71F1DAE8900DC4A1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		8E3434D91F1DAE8900DC4A1C = {
 			isa = PBXGroup;
 			children = (
+				8E0CC2681F29915D007AC3B4 /* SettingsViewController.swift */,
 				8E3434E41F1DAE8900DC4A1C /* tip calculator */,
 				8E3434E31F1DAE8900DC4A1C /* Products */,
 			);
@@ -57,6 +62,7 @@
 				8E3434E51F1DAE8900DC4A1C /* AppDelegate.swift */,
 				8E3434E71F1DAE8900DC4A1C /* ViewController.swift */,
 				8E3434E91F1DAE8900DC4A1C /* Main.storyboard */,
+				8E0CC26A1F2993F8007AC3B4 /* Settings.swift */,
 				8E3434EC1F1DAE8900DC4A1C /* Assets.xcassets */,
 				8E3434EE1F1DAE8900DC4A1C /* LaunchScreen.storyboard */,
 				8E3434F11F1DAE8900DC4A1C /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				8E3434E81F1DAE8900DC4A1C /* ViewController.swift in Sources */,
 				8E3434E61F1DAE8900DC4A1C /* AppDelegate.swift in Sources */,
+				8E0CC26B1F2993F8007AC3B4 /* Settings.swift in Sources */,
+				8E0CC2691F29915D007AC3B4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				8E3434F61F1DAE8900DC4A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
